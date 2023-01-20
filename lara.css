@@ -12,7 +12,9 @@
   src: url("https://fonts.animaapp.com/HelveticaNeue-Bold") format("truetype");
 }
 
-
+body {
+  background-color: #f4ddff;
+}
 :root {
     --black: 
   rgba(0, 0, 0, 1);
