@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "HelveticaNeue-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://fonts.animaapp.com/HelveticaNeue-Medium") format("opentype");
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/HelveticaNeue-Bold") format("truetype");
+}
+
+
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --barossa: 
+  rgba(65, 0, 47, 1);
+    --pompadour: 
+  rgba(100, 1, 73, 1);
+    --blue-chalk: 
+  rgba(244, 221, 255, 1);
+    --text: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-m: 20px;
+    --font-size-l: 32px;
+    --font-size-xl: 96px;
+  
+    --font-family-helveticaneue-bold: "HelveticaNeue-Bold";
+    --font-family-helveticaneue-medium: "HelveticaNeue-Medium";
+  }
+  
+  
+  
+  .helveticaneue-medium-pompadour-32px {
+    color: var(--pompadour);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .helveticaneue-medium-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .helveticaneue-medium-barossa-20px {
+    color: var(--barossa);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+  }
+.formas {
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+
+  .maecenas-quam-nunc {
+    color: 
+  #41002f;
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    left: 201px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 719px;
+    width: 1037px;
+    line-height: 30px;
+  }
+
+  .maecenas-quam-nunc b {
+    font-size: 20pt;
+    line-height: 60px;
+  }
+
+  .rectangle-3 {
+    background-color: var(--text);
+    border: 1px solid;
+    border-color: var(--black);
+    height: 568px;
+    left: 242px;
+    position: absolute;
+    top: 135px;
+    width: 956px;
+  }
+
+.raspadinha {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 270px;
+    left: 400px;
+    
+}
+.raspadinha2 {
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: var(--black);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-m);
+}
+
+.raspadinha:hover{
+  transition: all 2s ease-in;
+  background-color: rgb(0, 0, 0,0);
+  color: transparent;
+}
+
+  .codigo-de-rp {
+    color: var(--black);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+  }
+  .codigo-de-rp:hover {
+    transition: all 2s ease-in;
+    display: none;
+  }
+  .codigo-de-rp2 {
+    color: var(--black);
+    font-family: var(--font-family-helveticaneue-medium);
+    font-size: var(--font-size-m);
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    padding-top: 55px;
+    font-size: 10pt;
+    font-style: italic;
+  }
+
