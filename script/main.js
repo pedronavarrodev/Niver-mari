@@ -222,7 +222,7 @@ const animationTimeline = () => {
     )
     .from(".hat", 0.5, {
       x: -100,
-      y: 350,
+      y: 310,
       rotation: -180,
       opacity: 0
     })
@@ -299,7 +299,7 @@ const animationTimeline = () => {
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
     // tl.restart();
-    window.location.href="../pages/presente.html";
+    window.location.href="./presente.html";
   });
 };
 
